@@ -1,0 +1,139 @@
+@font-face {
+   font-family: 'ronda';
+   src: url(itc-ronda.otf);
+}
+
+.corpo{
+   background-color: #D4DDEE;
+}
+
+.conteudo_principal{
+   margin: 10% 0;
+}
+
+.conteudo_principal .container{
+   display: flex;
+   justify-content: center;
+   gap: 1%;
+}
+
+.secao_logo{
+   background-color: #ffffff;
+   width: 55%;
+   height: 400px;
+}
+
+.conteudo_logo{
+   text-align: center;
+   padding: 20% 0; 
+}
+
+.logo{
+   font-family: 'ronda', sans-serif;
+   color: #f553ba;
+   font-size: 88px;
+}
+
+.txt_logo{
+   font-family: Helvetica, sans-serif;
+   font-size: 14.5px;
+   line-height: 1.3em;
+   color: #242424;
+}
+
+.link_txt_logo{
+   text-decoration: none;
+   color: #cf439b;
+   font-weight: 700;
+}
+
+
+/* ################# */
+.teste{
+   background-color: #E8EEFA;
+   border: 3px solid #ffffff;
+   padding: 7%;
+   font-family: Helvetica, sans-serif;
+   font-size: 14px;
+   width: 100%;
+   height: 250px;
+   
+   display: flex;
+   flex-direction: column;
+   row-gap: 5px;
+}
+
+.grupo_checkbox_login{
+   width: 80%;
+}
+
+.grupo_checkbox_login, .link_info_login, .bt_login, .erro_login{
+   margin-left: 10%;
+   padding: 2%;
+}
+
+.secao_login{
+   width: 23.5%;
+}
+
+.secao_login .container{
+   flex-direction: column;
+   justify-content: center;
+   row-gap: 5px;
+   width: auto;
+}
+
+.titulo_login{
+   text-align: center;
+   margin-bottom: 5%;
+}
+
+.grupo_campo_login input{
+   width: 60%;
+   height: 20px;
+}
+
+.link_info_login{
+   text-decoration: none;
+   font-size: 13px;
+}
+
+.salvar_senha{
+   line-height: 1.5em;
+   vertical-align: top;
+}
+
+.bt_login{
+   width: 20%;
+   height: 30px;
+}
+
+.bt_login{
+   cursor: pointer;
+   
+}
+
+.erro_login{
+   color: blue;
+}
+
+.secao_esqueceu_senha{
+   background-color: #E8EEFA;
+   border: 3px solid #ffffff;
+   padding: 7%;
+   font-family: Helvetica, sans-serif;
+   font-size: 14px;
+   width: 100%;
+   height: 44px;
+   text-align: center;
+}
+
+.txt_esqueceu_senha{
+   margin-bottom: 2%;
+}
+
+.link_esqueceu_senha{
+   color: blue;
+   font-weight: 700;
+   text-transform: uppercase;
+}
