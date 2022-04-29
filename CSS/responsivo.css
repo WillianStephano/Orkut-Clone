@@ -1,0 +1,17 @@
+@media screen and (max-width:425px) {
+   .secao_logo{
+      display:  none;
+   }
+
+   .secao_login{
+      width: 60%;
+   }
+   
+   .conteudo_principal .container{
+      align-items: center;
+   }
+
+   .teste{
+      height: auto;
+   }
+}
