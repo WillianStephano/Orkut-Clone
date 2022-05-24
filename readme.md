@@ -2,6 +2,11 @@
   <br>Orkut login page - Clone
 </h1>
 
+<p align="center">
+  <a href="https://willianstephano.github.io/Orkut-Clone/">
+    <b>🚀Acesse o projeto 🚀</b>
+  </a>
+
 <h4 align="center">
   Projeto criado com o intuito de aprimorar meus conhecimentos nas tecnologias HTML e CSS.
 </h4>
